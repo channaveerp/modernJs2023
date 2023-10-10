@@ -6,6 +6,7 @@ x = d.getDay();
 x = d.getTime();
 // x = `{ ${x.getMonth()+1}}`;
 x = Intl.DateTimeFormat('default').format(d);
+
 x = d.toLocaleString('default', {
   month: 'long',
   year: 'numeric',
