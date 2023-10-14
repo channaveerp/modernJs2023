@@ -26,4 +26,4 @@ x = arr.reverse()
 
 
 
-console.log(x,arr);
+console.log(x,arr)
