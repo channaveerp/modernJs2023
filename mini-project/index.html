@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .conatainer {
+        border: 1px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        gap: 40px;
+        height: 100vh;
+      }
+      .single {
+        display: flex;
+        flex-direction: column;
+      }
+      .single small {
+        border: 1px solid;
+        padding: 15px;
+        margin: 10px 0 0 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>keycode mini project</h1>
+
+    <div class="conatainer" id="conatainer">
+      <div class="single">
+        key
+        <small id="small">e.key</small>
+      </div>
+      <div class="single">
+        keycode
+        <small id="smallKeycode">e.keycode</small>
+      </div>
+      <div class="single">
+        code
+        <small id="smallCode">e.code</small>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

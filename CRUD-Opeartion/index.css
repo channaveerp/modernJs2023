@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: auto;
+  width: 30%;
+}
+.item-form {
+  margin-top: 0.5rem;
+}
+.item-form button {
+  padding: 0.5rem;
+  outline: none;
+  cursor: pointer;
+}
+.item-form input {
+  padding: 0.5rem;
+  outline: none;
+}
+.filter input {
+  padding: 0.5rem;
+  margin: 10px 0 10px 0;
+  outline: none;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  gap: 35px;
+}
+ul li {
+  border: 1px solid #e5e5e5;
+}
+li button{
+    margin: 10px;
+}
